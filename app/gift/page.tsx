@@ -5,7 +5,7 @@ import { Heart, ArrowRight, PlayCircle, Music } from "lucide-react";
 
 export default function StorytellingGiftPage() {
   // A reusable animation setting so we don't have to type it out every time
-  const scrollReveal = {
+  const scrollReveal: any = {
     initial: { opacity: 0, y: 60 },
     whileInView: { opacity: 1, y: 0 },
     viewport: { once: true, margin: "-100px" },
